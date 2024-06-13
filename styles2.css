@@ -1,0 +1,143 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+header h1 {
+    margin: 0.5rem 0;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4d4d4;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+#about {
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #e0f7fa;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(50% - 2rem);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.skill h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer .socials {
+    margin-top: 1rem;
+}
+
+footer .socials a {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+footer .socials img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .skill {
+        flex-basis: calc(100% - 2rem);
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
